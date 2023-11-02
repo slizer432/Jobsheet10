@@ -23,7 +23,7 @@ public class bioskop23 {
         System.out.printf("%s \t %s\n", penonton[3][0], penonton[3][1]);
 
         for (int i = 0; i < penonton.length; i++) {
-            System.out.println("Penonton oada baris ke-" + (i+1) + ": " + String.join(", ", penonton[i]));
+            System.out.println("Penonton pada baris ke-" + (i+1) + ": " + String.join(", ", penonton[i]));
         }
     }
 }
